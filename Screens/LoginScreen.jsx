@@ -155,7 +155,6 @@ const LoginScreen = ({ navigation }) => {
     </TouchableWithoutFeedback>
   );
 };
-export default LoginScreen;
 
 const styles = StyleSheet.create({
   container: {
@@ -198,7 +197,7 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 25,
   },
   form: {
-    marginHorizontal: 26,
+    marginHorizontal: 16, // Изменил значение на 16
   },
   button: {
     backgroundColor: "#FF6C00",
@@ -231,3 +230,5 @@ const styles = StyleSheet.create({
     lineHeight: 19,
   },
 });
+
+export default LoginScreen;
